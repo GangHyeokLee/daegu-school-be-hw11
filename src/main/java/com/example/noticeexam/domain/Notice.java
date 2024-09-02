@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class Notice {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     @Column(length = 200)
     private String title;
