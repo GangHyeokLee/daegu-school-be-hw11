@@ -13,7 +13,8 @@
 
 <br>
 <a th:text="${#temporals.format(notice.getDate(), 'yyyy-MM-dd HH:mm')}"></a>
-<img th:src="@{|https://bucketl42w7ximgexam.s3.ap-northeast-2.amazonaws.com/${notice.getImg}|}" alt="awsImage">
+<br>
+<img th:src="@{|https://bucketl42w7ximgexam.s3.ap-northeast-2.amazonaws.com/${notice.getImg}|}" alt="awsImage" style="width: 50%">
 <br>
 
 <a href="/">목록보기</a>

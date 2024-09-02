@@ -12,6 +12,19 @@
 - img 사진용
 - date
 
-### 제출
-- 사진 5장 캡처 (사진 처리 강조, readlist readdetail, create  등등)
-- 전체 압축 파일 1개
+## 제출
+ 
+### 게시판 목록
+![img.png](img.png)
+
+### 게시판 상세
+![img_1.png](img_1.png)
+
+### 게시판 작성
+![img_2.png](img_2.png)
+
+### Bucket
+![img_3.png](img_3.png)
+
+### DB
+![img_4.png](img_4.png)
