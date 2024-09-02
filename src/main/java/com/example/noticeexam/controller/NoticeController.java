@@ -33,7 +33,7 @@ public class NoticeController {
     public String create(@ModelAttribute Notice notice,
                          @RequestParam("file") MultipartFile file) throws IOException {
         noticeService.create(notice, file);
-        return "readlist";
+        return "redirect:/notices";
     }
 
     //readlist
