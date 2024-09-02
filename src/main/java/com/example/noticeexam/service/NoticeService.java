@@ -36,7 +36,7 @@ public class NoticeService {
     }
 
     //readlist
-    public List<Notice> findAll() {
+    public List<Notice> readlist() {
         return noticeRepository.findAll();
     }
 
